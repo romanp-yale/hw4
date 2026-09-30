@@ -1,0 +1,16 @@
+# Local data pack and secrets
+/data/
+.env
+.env.*
+!.env.example
+
+# Generated files
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.npm-cache/
+/frontend/.env.local
+/frontend/*.tsbuildinfo
+__pycache__/
+*.py[cod]
+/.venv/
+/output/audit_trail.json.tmp

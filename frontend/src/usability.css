@@ -1,0 +1,5 @@
+.catalogue-controls { flex-wrap: wrap; justify-content: flex-start; }
+.catalogue-controls .search-label { flex: 1 1 320px; }
+.catalogue-controls .filter-label { flex: 0 1 210px; }
+.related-products { margin-top: 90px; padding-top: 55px; border-top: 1px solid rgba(255,255,255,.14); }
+@media(max-width:720px) { .catalogue-controls .search-label,.catalogue-controls .filter-label { width: 100%; flex-basis: 100%; } .related-products { margin-top: 60px; } }

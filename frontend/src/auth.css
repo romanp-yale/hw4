@@ -1,0 +1,19 @@
+.auth-page{min-height:72vh;display:grid;place-items:center;padding:70px 20px;background:radial-gradient(circle at 70% 25%,#173b6e 0,#071426 60%)}
+.auth-card{width:min(100%,540px);padding:42px;background:rgba(14,35,65,.86);border:1px solid rgba(199,219,245,.2);box-shadow:0 24px 60px #0005;border-radius:8px}
+.auth-card h1{font:600 clamp(36px,5vw,53px)/1.15 'Playfair Display',Georgia,serif;margin-bottom:14px}
+.auth-card>p{color:#b9c9dc;line-height:1.65;margin-bottom:28px}
+.auth-card form{display:flex;flex-direction:column;gap:17px}
+.auth-card label{display:flex;flex-direction:column;gap:8px;font-size:12px;font-weight:700;color:#e1eafa}
+.auth-card input{width:100%;padding:13px 14px;background:#071a32;border:1px solid #45607f;border-radius:4px;color:#fff;outline:none}
+.auth-card input:focus{border-color:#dab47f;box-shadow:0 0 0 2px #dab47f33}
+.auth-card label small{color:#9fafc5;font-weight:400}
+.name-row{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.auth-submit{border:0;width:100%;margin-top:5px}
+.auth-submit:disabled,.account-actions button:disabled{opacity:.65;cursor:wait}
+.form-error{padding:11px 13px;border-left:3px solid #e6a39e;background:#572c39;color:#ffe4e1;font-size:13px;line-height:1.5}
+.auth-switch{margin:24px 0 0!important;text-align:center;font-size:13px}
+.auth-switch a{color:#e7c18b;text-decoration:underline;text-underline-offset:3px}
+.account-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.button.outline{background:transparent;color:#e6c18e;border:1px solid #c89f6e}
+.account-actions+.form-error{margin-top:20px}
+@media(max-width:550px){.auth-card{padding:27px 20px}.name-row{grid-template-columns:1fr}}
